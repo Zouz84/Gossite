@@ -1,28 +1,13 @@
 # README
 
-first of all, before you jump over that link and miss my usefull application, please follow this link: https://gossite.herokuapp.com/gossips so you can give me some precious news.
+Bonjour !
 
-Thanks a lot !
+Comme vous le savez, **j'adore** les *nouvelles* inintéressantes ! 
+Du coup, j'ai créé un site de toutes pièces afin de créer un gros bordel à Gossip.
+Je vous invite à découvrir mon [Gossite](https://gossite.herokuapp.com/gossips) et y laisser vos plus précieuses informations.
+Je ne manquerais pas de vous laisser découvrir mes supers infos !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+La bise à vous.
 
-Things you may want to cover:
+> Force et Honneur
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
