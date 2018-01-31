@@ -1,1 +1,25 @@
-<h1>Hello hello salope </h1>
+<h1> Gossips Actu </h1>
+
+
+<table>
+  <tr>
+    <th>Source</th>
+    <th>Gossip</th>
+  </tr>
+
+  <% @gossips.each do |gossip| %> 
+
+    <tr>
+      <td><%= gossip.anonymous_author %></td>
+      <td><%= gossip.content %></td>
+      <td><%= link_to "Voir", gossip_path(gossip) %></td>
+      <td><%= link_to "Editer", edit_gossip_path(gossip) %></td>
+      <td> <%= link_to "Supprimer", gossip_path(gossip),
+              method: :delete,
+              data: { confirm: 'Vous êtes sur le point de supprimer un gossip croustillant, êtes vous sûrs?' } %> </td>
+
+    </tr>
+  <% end %>
+</table>
+
+<p> <%= link_to('Une info toute chaude ?', new_gossip_path ) %> </p>

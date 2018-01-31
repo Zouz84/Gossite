@@ -1,0 +1,7 @@
+<h1> Editer ce gossip </h1>
+ 
+<%= render 'form', gossip: @gossip %>
+ 
+<%= submit_tag "Modifier le gossip"%>
+
+<p> <%= link_to('Retour aux gossips', gossips_path) %> </p> 
